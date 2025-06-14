@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mi sitio</title>
+<style type="text/css">
+.a {
+}
+</style>
+</head>
+
+
+	<body>	
+<h1 align="center">Animales en peligro de extinción</h1>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        nav {
+            background: #34495e;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block;
+            position: relative;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration:#f4f4f4;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            background: #2c3e50;
+            padding: 10px;
+            list-style: none;
+        }
+        nav ul li:hover ul {
+            display: block;
+        }
+        .carousel {
+            display: flex;
+            overflow: hidden;
+            width: 80%;
+            margin: auto;
+            position: relative;
+        }
+        .carousel img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+        .carousel img.active {
+            display: block;
+        }
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+	#menu
+	
+    </style>	
+</head>
+<body>
+ 
+	<header>Animales en peligro de extinción
+            </header>
+	   
+    <nav>    <ul>
+            <li><a href="Mi sitio.html">Inicio</a></li>
+    
+		<li><a href="prueba 1.html">Contacto</a></li>
+            <li><a href="#">Más     <style>
+		   #menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #34495e;
+  position: relative;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+#menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+#menu ul {
+  position: absolute;
+  display: none;
+  background-color: #f4f9f9;
+  min-width: 160px;
+}
+
+#menu li:hover > ul {
+  display: block;
+}        </style> 
+                  
+  <ul id="menu">
+    <li><a href="Causas.html">Causas</a></li>
+    <li>
+      <a href="Soluciones.html">Soluciones</a>
+     
+    </li>
+    
+        </ul>
+    </nav>
+    <section class="carousel">
+         <img src="tigre-esta-jungla-ojos-cerrados_1048664-1702.png" width="626" height="417" alt=""/>
+        <img src="Grosser_Panda.png" width="500" height="333" alt=""/>
+        <img src="512px-Canis_lupus_265b.png" width="500" height="375" alt=""/>
+    </section>
+    <footer>
+      <p>&copy; 2025 Animales en Peligro de Extinción. Todos los derechos reservados.</p>
+    </footer>	
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.carousel img');
+        function showNextImage() {
+            images[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % images.length;
+            images[currentIndex].classList.add('active');
+        }
+        setInterval(showNextImage, 3000);
+    
+			
+
+</script>
+</body>
+</html>
+
+</body>
+</html>
